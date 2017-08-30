@@ -10,18 +10,23 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    double rate;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ParseActualRates parseActualRates = new ParseActualRates();
+        parseActualRates.execute();
+        rate = parseActualRates.actualRate;
     }
 
     public float convertUsdToByr(float usd) {
-        return (float) (usd * 1.932);
+        return (float) (usd * rate);
     }
 
     public float convertByrToUsd(float byr) {
-        return (float) (byr / 1.932);
+        return (float) (byr / rate);
     }
 
     public void onClickConvert(View view) {
