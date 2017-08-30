@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="radiobut_usdToByr">USD to BYR</string>
+    <string name="radiobut_byrToUsd">BYR to USD</string>
+    <string name="editText_enterPrice">Enter price</string>
+    <string name="button_convert">Convert</string>
+    <string name="toast_emptiInput">Please enter price</string>
+
+</resources>
