@@ -16,7 +16,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
         android:hint="@string/editText_enterPrice"
-        android:inputType="numberDecimal|numberSigned" />
+        android:inputType="number|numberDecimal" />
 
     <RadioGroup
         android:id="@+id/radiogroup"
@@ -63,5 +63,23 @@
         android:text="@string/button_convert"
         android:textColor="@color/text"
         android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_getRates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@color/button"
+        android:onClick="onClickGetRates"
+        android:text="get rates"
+        android:textColor="@color/text"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/rates_progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
 
 </LinearLayout>
