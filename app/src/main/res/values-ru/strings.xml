@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Конвертер валют</string>
+    <string name="radiobut_usdToByr">USD в BYR</string>
+    <string name="radiobut_byrToUsd">BYR в USD</string>
+    <string name="editText_enterPrice">Введите сумму</string>
+    <string name="button_convert">Перевести</string>
+    <string name="toast_emptiInput">Пожалуйста введите сумму</string>
+    <string name="button_getRate">Получить котировки</string>
+
+</resources>

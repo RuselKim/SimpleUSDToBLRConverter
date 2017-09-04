@@ -5,5 +5,6 @@
     <string name="editText_enterPrice">Enter price</string>
     <string name="button_convert">Convert</string>
     <string name="toast_emptiInput">Please enter price</string>
+    <string name="button_getRate">get rates</string>
 
 </resources>

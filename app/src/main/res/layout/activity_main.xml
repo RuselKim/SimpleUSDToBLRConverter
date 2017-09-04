@@ -71,7 +71,7 @@
         android:layout_margin="40dp"
         android:background="@color/button"
         android:onClick="onClickGetRates"
-        android:text="get rates"
+        android:text="@string/button_getRate"
         android:textColor="@color/text"
         android:textSize="20sp" />
 
